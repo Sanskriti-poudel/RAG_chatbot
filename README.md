@@ -29,33 +29,18 @@ FAISS (Vector Database) ,
 Streamlit (Frontend UI) 
 
 
-📁 Project Structure
-rag-chatbot/
-│
-├── data/                  # PDF documents
-├── src/
-│   ├── loader.py         # Load PDF files
-│   ├── splitter.py       # Split text into chunks
-│   ├── embeddings.py     # Generate embeddings
-│   ├── vectorstore.py    # FAISS vector DB
-│   ├── rag_chain.py      # RAG pipeline
-│
-├── app.py                # Streamlit chatbot UI
-├── requirements.txt      # Dependencies
-└── README.md
-
 # Installation & Setup
 
-1️⃣ Clone the repository
-git clone https://github.com/your-username/rag-chatbot.git
+1️⃣ Clone the repository:
+git clone https://github.com/your-username/rag-chatbot.git ,
 cd rag-chatbot
 
-2️⃣ Create virtual environment
-python -m venv venv
+2️⃣ Create virtual environment:
+python -m venv venv ,
 venv\Scripts\activate   # Windows
 
-3️⃣ Install dependencies
+3️⃣ Install dependencies:
 pip install -r requirements.txt
 
-4️⃣ Run the application
+4️⃣ Run the application:
 streamlit run app.py
